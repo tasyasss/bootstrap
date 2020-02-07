@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+ 	<title>Bootstrap Slider</title>
+ 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- load bootstrap css -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- load jquery and bootstrap js -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+ </head>
+ 
+ <body>
+ 	<div class="container">
+ 		<div class="carousel slide" data-ride="carousel" id="slide">
+ 			
+ 			<!-- indikator slide -->
+ 			<ul class="carousel-indicators">
+ 				<!-- class=active berarti elemen tersebut pertama kali ditampilkan -->
+ 				<li data-target="#slide" data-slide-to="0" class="active"></li>
+ 				<li data-target="#slide" data-slide-to="1"></li>
+ 				<li data-target="#slide" data-slide-to="2"></li>
+ 			</ul>
+
+ 			<!-- gambar slide -->
+ 			<div class="carousel-inner">
+ 				<div class="carousel-item active" align="center">
+ 					<img src="habibie.jfif" width="50%" height="500" alt="">
+ 				</div>
+ 				<div class="carousel-item" align="center">
+ 					<img src="gusdur.jfif" width="50%" height="500" alt="">
+ 				</div>
+ 				<div class="carousel-item" align="center">
+ 					<img src="soeharto.jfif" width="50%" height="500" alt="">
+ 				</div>
+ 			</div>
+
+ 			<!-- navigasi slide -->
+ 			<a href="#slide" data-slide="prev" class="carousel-control-prev">
+ 				<span class="carousel-control-prev-icon"></span>
+ 			</a>
+ 			<a href="#slide" data-slide="next" class="carousel-control-next">
+ 				<span class="carousel-control-next-icon"></span>
+ 			</a>
+
+ 		</div>
+ 	</div>
+ </body>
+ </html>
